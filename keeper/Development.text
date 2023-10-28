@@ -1,0 +1,16 @@
+
+---Card tasarımının üzerine butonlar koyalım.
+    --Notu sil, önemli olarak işaretle, ilham verici olarak işaretle, Tamamlandı olarak işaretle, 
+    --önemli olanlar liste sırasında ilk sıralarda gözüksün, ilham vericiler sonra gelsin, diğer notlar da sonra gelsin. 
+    
+---Sidebar yapalım.
+    --sidebarda etiketler olsun burdan navigation yapabiliriz.
+    --Tamamlananlar olarak section açalım.
+    --Son silinenler olsun 30 gün tutulsun veya görmek açısından 15 sn falan.
+---Notun üstüne tıklayınca not yakınlaşsın.
+---Üstte koyu tema butonu.
+
+---Angela cookie session ile authentication videosundan bakarak, mongo ve cookie session kullanarak authenticate edelim. Google authenticate sonra yapalaım hem mongo kullanmış oluruz hemde password saltinh hashing yapmış oluruz. 
+
+
+---Login ekranı ve register ekranı yapalım, register da isim soyisim email password isteyelim bunu mongoya atalım, 
