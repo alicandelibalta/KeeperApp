@@ -54,8 +54,9 @@ const TakeNote = (props) => {
           value={note.content}
           placeholder="Take a note..."
           rows={isExpanded ? 3 : 1}
+           
         />
-        <button in={isExpanded} onClick={submitNote}>Add</button>
+        {isExpanded && (<button onClick={submitNote}>Add</button>)}
       
       </form>
     </div>

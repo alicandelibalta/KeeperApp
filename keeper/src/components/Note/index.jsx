@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import H1 from "../H1";
 import P from "../Paragraph";
 import "./index.scss";
@@ -7,9 +7,18 @@ import {BulbOutlined, DeleteOutlined, EditOutlined, ExclamationCircleOutlined} f
 // import cn from "classname";
 
 const Note = (props) => {
+
+  const [changeColor, setChangeColor] = useState("");
+
   function handleClick() {
     props.onDelete(props.id);
   }
+
+  // function changeNoteColor(event) {
+  //   setChangeColor = ()=> {
+  //     event.color
+  //   }
+  // }
 
   return (
     <div className="note">
@@ -19,7 +28,7 @@ const Note = (props) => {
       <DeleteOutlined />
       </button>
       <button className="noteCardButton" >
-      <BulbOutlined />
+      <BulbOutlined  />
       </button>
       <button className="noteCardButton">
       <ExclamationCircleOutlined />
